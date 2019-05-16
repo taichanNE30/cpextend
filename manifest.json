@@ -9,6 +9,13 @@
       "48": "icon.png"
   },
 
+  "applications": {
+    "gecko": {
+      "id": "cpex@mtsgi",
+      "strict_min_version": "53.0"
+    }
+  },
+
   "content_scripts": [
       {
         "matches": ["*://*/*"],
